@@ -1,0 +1,110 @@
+
+-----------------------------------------------------
+重開機指南  v1.0.0
+
+
+sudo grub-reboot <num>
+sudo reboot now
+
+-----------------------------------------------------
+記憶體
+
+確認目前記憶體
+free -m
+
+頁面緩存清除指令
+sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches'
+
+目錄和索引節點清除指令
+sudo sh -c 'echo 2 >/proc/sys/vm/drop_caches'
+
+pagecache、dentries 和 inode 清除指令
+sudo sh -c 'echo 3 >/proc/sys/vm/drop_caches'
+2
+-----------------------------------------------------
+GNU / Linux 各種壓縮與解壓縮指令
+壓縮：
+$ rar a FileName.rar DirName
+
+解壓縮 1：
+$ rar e FileName.rar
+
+解壓縮 2：
+$ unrar e FileName.rar
+
+解壓縮 3：在指定目錄內解壓縮
+$ rar x FileName.rar DirName
+
+
+-----------------------------------------------------
+Install Deb Files on Ubuntu via dpkg Package Manager:
+
+sudo dpkg -i <debfilename>
+
+
+Install Deb Files on Ubuntu Using the apt Command:
+
+sudo apt install ./filename.deb
+
+
+-----------------------------------------------------
+Disable middle mouse button click paste
+
+Run the following command:
+
+xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9"
+
+To persist this behavior, edit ~/.Xmodmap and add
+
+pointer = 1 25 3 4 5 6 7 8 9
+
+
+
+-----------------------------------------------------
+chmod 755 是Linux  對文件所設置權限的命令 後面的數字是代表不同的權限
+一般是三個数字+
+
+第一個數字：表示檔案擁有者權限
+第二個數字：表示檔案所屬群組的權限
+第三個數字：表示其它非擁有者與群組者的權限
+
+讀 r＝4, 寫 w＝2, 執行 x＝1
+可讀可執行 rx＝4+1＝5
+可讀可寫 rw＝4+2＝6
+可讀可寫可執行 rwx＝4+2+1＝7
+
+chmod 755 權限為
+1.文件所有者可讀可寫可執行 
+2.文件所有者同和其他用戶可讀可執行 
+3.其它用戶组可讀可執行
+
+-----------------------------------------------------
+Pending Update of Snap Store
+
+One way: On the command line, run 
+
+snap-store --quit
+sudo snap refresh
+sudo snap refresh <application-name>
+
+-----------------------------------------------------
+close ubuntu screen_reader 
+
+gsettings set org.gnome.desktop.a11y.applications screen-reader-enabled false
+
+-----------------------------------------------------
+gio trash --empty 
+
+
+-----------------------------------------------------
+Restart the audio
+	pulseaudio -k && sudo alsa force-reload
+	or 
+	systemctl --user restart pulseaudio
+
+
+
+
+
+
+

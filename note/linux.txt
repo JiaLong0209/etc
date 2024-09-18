@@ -1,0 +1,140 @@
+
+	Network commands
+
+ifconfig  	// IP
+
+iwconfig 	// Wireless network
+
+ping 		// verify that a computer can communicate over the network
+
+arp 		// Address Resolution Protocol, find IP to MAC address mapping
+
+netstat		// delivers basic statistics on all network activities and informs users on which ports and addresses the corresponding connections are running and which ports are open for tasks
+
+route 		// fetches the routing table, basically tells where all the network is actually routed
+
+    Firewall
+
+// Allow traffic on port 8000  
+sudo ufw allow 8000
+
+// Deny Access to a Specific port
+sudo ufw deny 5000
+
+
+// If you are using firewalld, you can open the port with:
+sudo firewall-cmd --add-port=5000/tcp --permanent
+sudo firewall-cmd --reload
+
+
+
+
+	Linux commands
+
+grep 		// search a given file for patterns specified by the user
+
+tr 			// translating or deleting characters
+
+cat 		// create single or multiple files, the view containing the file, concatenate files, and redirect output in terminal or files
+
+cut 		// extract sections from each line of input - usually from a file
+
+
+---------------------------------------
+// Check the swap memory size of the current system
+sudo swapon -s	
+
+// Close swap memory
+sudo swapoff -a	
+
+// Check the current system disk space (remaining disk size)
+df -h		
+
+// Create the swap file, specify how much memory size to allocate to it,
+// and start the swap memory.
+
+sudo fallocate -l 16G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+// Confirm whether swap is set correctly
+sudo mount -a	
+
+vim /etc/fstab 	
+
+
+240405 new swap file 32G:
+UUID=89462417-fe3f-4b35-b3b2-1e8946d39100
+
+
+---------------------------------------
+.tar
+打包：tar cvf FileName.tar DirName
+解包： tar xvf FileName.tar
+
+.gz
+壓縮：gzip FileName
+解壓1：gunzip FileName.gz
+解壓2：gzip -d FileName.gz
+
+.tar.gz
+壓縮：tar zcvf FileName.tar.gz DirName
+解壓：tar zxvf FileName.tar.gz
+
+.zip
+壓縮：zip FileName.zip DirName
+解壓：unzip FileName.zip
+
+.rar
+壓縮：rar e FileName.rar
+解壓：rar a FileName.rar
+
+.tgz
+壓縮：unkown
+解壓：tar zxvf FileName.tgz
+
+
+---------------------------------------
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+ssh -T git@github.com
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+ls -al ~/.ssh
+
+
+---------------------------------------
+*	代表『 0 個到無窮多個』任意字元
+?	代表『一定有一個』任意字元
+[ ]	同樣代表『一定有一個在括號內』的字元(非任意字元)。例如 [abcd] 代表『一定有一個字元， 可能是 a, b, c, d 這四個任何一個』
+[ - ]	若有減號在中括號內時，代表『在編碼順序內的所有字元』。例如 [0-9] 代表 0 到 9 之間的所有數字，因為數字的語系編碼是連續的！
+[ ]	若中括號內的第一個字元為指數符號 (^) ，那表示『反向選擇』，例如 [^abc] 代表 一定有一個字元，只要是非 a, b, c 的其他字元就接受的意思。
+
+
+#	註解符號：這個最常被使用在 script 當中，視為說明！在後的資料均不執行
+\	跳脫符號：將『特殊字元或萬用字元』還原成一般字元
+|	管線 (pipe)：分隔兩個管線命令的界定(後兩節介紹)；
+;	連續指令下達分隔符號：連續性命令的界定 (注意！與管線命令並不相同)
+~	使用者的家目錄
+$	取用變數前置字元：亦即是變數之前需要加的變數取代值
+&	工作控制 (job control)：將指令變成背景下工作
+!	邏輯運算意義上的『非』 not 的意思！
+/	目錄符號：路徑分隔的符號
+>, >>	資料流重導向：輸出導向，分別是『取代』與『累加』
+<, <<	資料流重導向：輸入導向 (這兩個留待下節介紹)
+' '	單引號，不具有變數置換的功能 ($ 變為純文字)
+" "	具有變數置換的功能！ ($ 可保留相關功能)
+` `	兩個『 ` 』中間為可以先執行的指令，亦可使用 $( )
+( )	在中間為子 shell 的起始與結束
+{ }	在中間為命令區塊的組合！
+
+ffmpeg 
+
+ffmpeg -ss 00:00:16 -to 00:00:26 -i input.mp4 -c copy output.mp4
+
+
+

@@ -1,0 +1,206 @@
+	My Git Note	230831~
+
+git reset HEAD^
+
+// back to last commit (save changes)
+git reset --soft HEAD~1
+
+// Unstage files
+git reset -- <file path>
+
+// Go to files last commit status
+git checkout -- <file path>
+
+// Amend last commit message
+git commit --amend -m "commit message" 
+
+// Change a git commit date
+git commit --amend --no-edit --date <date>
+git commit --amend --no-edit --date "2023/11/09 20:00:00"
+git commit -m "message" --amend --no-edit --date "2023/11/09 20:00:00"
+
+
+// Change the commit information from {commit ID} to current commit 
+git rebase -i {commit ID} 
+
+
+
+	--- git tag
+
+// lightweight tag
+git tag <tag_name> {commit ID}
+
+// annotated tag
+git tag -a <tag_name> -m "Tag Message" {commit ID}
+
+// remove tag
+git tag -d <tag_name>
+
+// push tag to upstream
+git push <upstream> <tag_name>
+
+// push all tags
+git push --tags
+
+// remove tag from remote repository
+git push <upstream> :refs/tags/<tag_name>
+
+git checkout -b <new_branch> <tag_name>
+
+
+
+	--- git release
+	
+// Create and push a release
+git release tag_name
+
+// Create and push a signed release
+git release tag_name -s
+
+// Create and push a release with a message
+git release {tag_name} -m "message"
+
+
+
+	--- git branch / checkout
+	
+// Create a branch
+git branch <branch_name>
+
+// Delete a local branch
+git branch -d <branch_name>
+
+// Delete a remote branch
+git push <remote_name> --delete <branch_name>
+
+// Rename a local branch
+git branch -m <new_branch_name>
+
+// Rename a remote branch
+git push origin :<old_branch_name> <new_branch_name>
+
+// Switch to a branch
+git checkout <branch_name>
+
+// Copy files or folders from another branch
+git checkout <target_branch_name> <file_path> 
+
+	EX: Copy all files from the master branch to the current branch.
+	git checkout master ./
+
+
+
+	--- git revert
+
+// Create a new commit to  revert the commit
+git revert <commit_ID>
+
+
+
+	--- git cherry-pick
+
+// Pick up a commit to the current branch
+git cherry-pick <commit_ID>
+
+// Pick up a commit to the current branch without commit
+git cherry-pick <commit_ID> --no-commit
+
+
+    --- git blame
+  
+// Check the file are writen by who
+git blame <file_name>
+
+	
+	--- git diff-tree
+  
+git diff-tree HEAD  --name-only -r --no-commit-id
+
+
+	--- git archive
+
+
+
+	--- git filter-repo 
+
+// need to install filter-repo (https://github.com/newren/git-filter-repo)
+
+// Splitting a subfolder out into a new repository
+
+1. git clone https://github.com/USERNAME/REPOSITORY-NAME
+
+2. cd REPOSITORY-NAME
+
+3. git filter-repo --path FOLDER-NAME/
+# Filter the specified branch in your directory and remove empty commits
+
+(3. git filter-repo --subdirectory-filter FOLDER-NAME
+# Filter the specific branch by using a single sub-directory as the root for the new repository)
+
+4. git remote add origin https://github.com/USERNAME/REPOSITORY-NAME.git
+
+5. git remote -v
+
+6. git pull origin BRANCH-NAME --rebase
+
+6. git push -u origin BRANCH-NAME
+	
+
+
+	--- git lfs
+
+GIT_TRACE=true GIT_CURL_VERBOSE=true git lfs push --all origin
+
+
+	Error:
+
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+
+	sol.1:
+		git config --global  http.postBuffer 1048576000 
+		# 1048576000B = 1GB
+		Maximum size in bytes of the buffer used by smart HTTP transports when POSTing data to the remote system. For requests larger than this buffer size, HTTP/1.1 and Transfer-Encoding: chunked is used to avoid creating a massive pack file locally. Default is 1 MiB, which is sufficient for most requests.
+
+	sol.2 (It works for me):
+		git config --global http.lowSpeedLimit 0
+		git config --global http.lowSpeedTime 999999
+		If the HTTP transfer speed is less than http.lowSpeedLimit for longer than http.lowSpeedTime seconds, the transfer is aborted. Can be overridden by the GIT_HTTP_LOW_SPEED_LIMIT and GIT_HTTP_LOW_SPEED_TIME environment variables.
+
+
+	sol.3:
+		git config --global core.compression 3
+		# 0 ~ 9
+		An integer -1…9, indicating a default compression level. -1 is the zlib default. 0 means no compression, and 1…9 are various speed/size tradeoffs, 9 being slowest. If set, this provides a default to other compression variables, such as core.looseCompression and pack.compression.
+
+
+Repair Permissions
+
+After you have identified and fixed the underlying cause (see below), you'll want to repair the permissions:
+
+	cd /path/to/repo/.git
+	sudo chgrp -R groupname .
+	sudo chmod -R g+rwX .
+	sudo find . -type d -exec chmod g+s '{}' +
+
+Underlying Causes
+
+The error could be caused by one of the following:
+
+    The repository isn't configured to be a shared repository (see core.sharedRepository in git help config). If the output of:
+
+     git config core.sharedRepository
+
+    is not group or true or 1 or some mask, try running:
+
+     git config core.sharedRepository group
+
+    and then re-run the recursive chmod and chgrp (see "Repair Permissions" above).
+
+
+
+
+
+
+
+

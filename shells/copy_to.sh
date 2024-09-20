@@ -6,8 +6,13 @@ DIR_PATH=$1
 # Expand the tilde (~) to the full path
 DIR_PATH=$(eval echo $DIR_PATH)
 
+if [[ -z $DIR_PATH ]] ; then 
+  echo "Usage: $0 <DIR_PATH>"
+  exit 1
+fi
+
 # Check if the directory exists
-if [ -d "$DIR_PATH" ]; then 
+if [[ -d "$DIR_PATH" ]] ; then 
     echo "Directory '$DIR_PATH' already exists."
 else 
     # Create the directory if it does not exist
@@ -21,9 +26,7 @@ else
 fi
 
 # Find and list all .sh files
-for script in $(find . -type f -iname "*.sh"); do 
-    echo "$script"
-done
+find . -type f -iname "*.sh" -exec echo {} \;
 
 # Copy all .sh files to the target directory
 cp $(find . -type f -iname "*.sh") "$DIR_PATH"

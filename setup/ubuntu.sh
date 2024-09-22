@@ -31,12 +31,12 @@ visudo
 # put user ALL=(ALL:ALL) ALL
 
 # install xfce4
-# sudo apt install xubuntu-desktop
-# sudo update-alternatives --config x-terminal-emulator
+sudo apt install xubuntu-desktop
+sudo update-alternatives --config x-terminal-emulator
 
 # install KDE
-sudo apt install kubuntu-desktop
-sudo update-alternatives --config x-terminal-emulator
+# sudo apt install kubuntu-desktop
+# sudo update-alternatives --config x-terminal-emulator
 
 # set time zone
 sudo ln -sf /usr/share/zoneinfo/Asia/Taipei /etc/localtime

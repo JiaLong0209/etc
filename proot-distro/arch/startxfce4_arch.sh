@@ -1,9 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-$USER=$1
+USER=$1
 
 if [[ -z $USER ]]; then
-  $USER=root
+  USER="user"
 fi
 
 # Kill open X11 processes

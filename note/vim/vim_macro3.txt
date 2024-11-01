@@ -1,0 +1,27 @@
+---- Before ----
+
+apples
+bananas
+watermelons
+oranges
+grandma
+cigarett
+kiwis
+meth
+
+git git l
+t push 
+h
+---- After ----
+git add .
+git ,^[J
+
+apples
+bananas
+watermelons
+oranges
+grandma
+cigarettes
+kiwis
+meth
+

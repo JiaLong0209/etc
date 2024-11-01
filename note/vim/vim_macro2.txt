@@ -1,0 +1,100 @@
+
+// ==============================
+//          Before
+// ==============================
+
+test_values = (
+    "hej.txt": "txt",
+    "hej.html": "html",
+    "hej.TxT": "TxT",
+    "hej.TEX": "TEX",
+    ".txt": "txt",
+    ".html": "html",
+    ".html5": "html5",
+    ".x.yyy": "yyy",
+)
+
+// ==============================
+//          After
+// ==============================
+
+// Command: I(f:ý5r,ý5$i)0j@j
+test_values = (
+    ("hej.txt", "txt"),
+    ("hej.html", "html"),
+    ("hej.TxT", "TxT"),
+    ("hej.TEX", "TEX"),
+    (".txt", "txt"),
+    (".html", "html"),
+    (".html5", "html5"),
+    (".x.yyy", "yyy"),
+)
+
+================================
+
+test_values = (
+    ("hej.txt", "txt"),
+    ("hej.html", "html"),
+    ("hej.TxT", "TxT"),
+    ("hej.TEX", "TEX"),
+    (".txt", "txt"),
+    (".html", "html"),
+    (".html5", "html5"),
+    (".x.yyy", "yyy"),
+()
+
+==================================
+
+// ==============================
+//          Before
+// ==============================
+const arrayB = [
+  "i",
+  "g",
+  "h",
+  "b",
+  "f",
+  "d",
+  "e",
+  "c",
+  "a",
+]
+
+
+const arrayA = [
+  "h",
+  "b",
+  "f",
+  "d",
+  "e",
+  "a",
+  "c",
+]
+
+// ==============================
+//          After
+// ==============================
+// Command: f[ý5vi["so:sort}jk}{j@j
+
+const arrayB = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+]
+
+const arrayA = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "h",
+]
+

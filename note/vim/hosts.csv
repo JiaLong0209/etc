@@ -1,0 +1,676 @@
+Description,Hostname,IPAddress,FQDN
+# :execute "let @h='0r#f\"xldf,A,\<Esc>p0df,$px:s/,/\\t/g\<Enter>j'"
+
+
+---------------------------------------------------------------------
+                Before
+---------------------------------------------------------------------
+
+#OCP Master Node 1",ocpmaster01,192.168.0.20,ocpmaster01.home.ca
+"OCP Master Node 2",ocpmaster02,192.168.0.21,ocpmaster02.home.ca
+"OCP Master Node 3",ocpmaster03,192.168.0.22,ocpmaster03.home.ca
+"OCP Master Node 4",ocpmaster04,192.168.0.23,ocpmaster04.home.ca
+"OCP Master Node 5",ocpmaster05,192.168.0.24,ocpmaster05.home.ca
+"OCP Master Node 6",ocpmaster06,192.168.0.25,ocpmaster06.home.ca
+"OCP Master Node 7",ocpmaster07,192.168.0.26,ocpmaster07.home.ca
+"OCP Master Node 8",ocpmaster08,192.168.0.27,ocpmaster08.home.ca
+"OCP Master Node 9",ocpmaster09,192.168.0.28,ocpmaster09.home.ca
+"OCP Master Node 10",ocpmaster10,192.168.0.29,ocpmaster10.home.ca
+"OCP Master Node 11",ocpmaster11,192.168.0.30,ocpmaster11.home.ca
+"OCP Master Node 12",ocpmaster12,192.168.0.31,ocpmaster12.home.ca
+"OCP Master Node 13",ocpmaster13,192.168.0.32,ocpmaster13.home.ca
+"OCP Master Node 14",ocpmaster14,192.168.0.33,ocpmaster14.home.ca
+"OCP Master Node 15",ocpmaster15,192.168.0.34,ocpmaster15.home.ca
+"OCP Master Node 16",ocpmaster16,192.168.0.35,ocpmaster16.home.ca
+"OCP Master Node 17",ocpmaster17,192.168.0.36,ocpmaster17.home.ca
+"OCP Master Node 18",ocpmaster18,192.168.0.37,ocpmaster18.home.ca
+"OCP Master Node 19",ocpmaster19,192.168.0.38,ocpmaster19.home.ca
+"OCP Master Node 20",ocpmaster20,192.168.0.39,ocpmaster20.home.ca
+"OCP Master Node 21",ocpmaster21,192.168.0.40,ocpmaster21.home.ca
+"OCP Master Node 22",ocpmaster22,192.168.0.41,ocpmaster22.home.ca
+"OCP Master Node 23",ocpmaster23,192.168.0.42,ocpmaster23.home.ca
+"OCP Master Node 24",ocpmaster24,192.168.0.43,ocpmaster24.home.ca
+"OCP Master Node 25",ocpmaster25,192.168.0.44,ocpmaster25.home.ca
+"OCP Master Node 26",ocpmaster26,192.168.0.45,ocpmaster26.home.ca
+"OCP Master Node 27",ocpmaster27,192.168.0.46,ocpmaster27.home.ca
+"OCP Master Node 28",ocpmaster28,192.168.0.47,ocpmaster28.home.ca
+"OCP Master Node 29",ocpmaster29,192.168.0.48,ocpmaster29.home.ca
+"OCP Master Node 30",ocpmaster30,192.168.0.49,ocpmaster30.home.ca
+"OCP Master Node 31",ocpmaster31,192.168.0.50,ocpmaster31.home.ca
+"OCP Master Node 32",ocpmaster32,192.168.0.51,ocpmaster32.home.ca
+"OCP Master Node 33",ocpmaster33,192.168.0.52,ocpmaster33.home.ca
+"OCP Master Node 34",ocpmaster34,192.168.0.53,ocpmaster34.home.ca
+"OCP Master Node 35",ocpmaster35,192.168.0.54,ocpmaster35.home.ca
+"OCP Master Node 36",ocpmaster36,192.168.0.55,ocpmaster36.home.ca
+"OCP Master Node 37",ocpmaster37,192.168.0.56,ocpmaster37.home.ca
+"OCP Master Node 38",ocpmaster38,192.168.0.57,ocpmaster38.home.ca
+"OCP Master Node 39",ocpmaster39,192.168.0.58,ocpmaster39.home.ca
+"OCP Master Node 40",ocpmaster40,192.168.0.59,ocpmaster40.home.ca
+"OCP Master Node 41",ocpmaster41,192.168.0.60,ocpmaster41.home.ca
+"OCP Master Node 42",ocpmaster42,192.168.0.61,ocpmaster42.home.ca
+"OCP Master Node 43",ocpmaster43,192.168.0.62,ocpmaster43.home.ca
+"OCP Master Node 44",ocpmaster44,192.168.0.63,ocpmaster44.home.ca
+"OCP Master Node 45",ocpmaster45,192.168.0.64,ocpmaster45.home.ca
+"OCP Master Node 46",ocpmaster46,192.168.0.65,ocpmaster46.home.ca
+"OCP Master Node 47",ocpmaster47,192.168.0.66,ocpmaster47.home.ca
+"OCP Master Node 48",ocpmaster48,192.168.0.67,ocpmaster48.home.ca
+"OCP Master Node 49",ocpmaster49,192.168.0.68,ocpmaster49.home.ca
+"OCP Master Node 50",ocpmaster50,192.168.0.69,ocpmaster50.home.ca
+"OCP Master Node 51",ocpmaster51,192.168.0.70,ocpmaster51.home.ca
+"OCP Master Node 52",ocpmaster52,192.168.0.71,ocpmaster52.home.ca
+"OCP Master Node 53",ocpmaster53,192.168.0.72,ocpmaster53.home.ca
+"OCP Master Node 54",ocpmaster54,192.168.0.73,ocpmaster54.home.ca
+"OCP Master Node 55",ocpmaster55,192.168.0.74,ocpmaster55.home.ca
+"OCP Master Node 56",ocpmaster56,192.168.0.75,ocpmaster56.home.ca
+"OCP Master Node 57",ocpmaster57,192.168.0.76,ocpmaster57.home.ca
+"OCP Master Node 58",ocpmaster58,192.168.0.77,ocpmaster58.home.ca
+"OCP Master Node 59",ocpmaster59,192.168.0.78,ocpmaster59.home.ca
+"OCP Master Node 60",ocpmaster60,192.168.0.79,ocpmaster60.home.ca
+"OCP Master Node 61",ocpmaster61,192.168.0.80,ocpmaster61.home.ca
+"OCP Master Node 62",ocpmaster62,192.168.0.81,ocpmaster62.home.ca
+"OCP Master Node 63",ocpmaster63,192.168.0.82,ocpmaster63.home.ca
+"OCP Master Node 64",ocpmaster64,192.168.0.83,ocpmaster64.home.ca
+"OCP Master Node 65",ocpmaster65,192.168.0.84,ocpmaster65.home.ca
+"OCP Master Node 66",ocpmaster66,192.168.0.85,ocpmaster66.home.ca
+"OCP Master Node 67",ocpmaster67,192.168.0.86,ocpmaster67.home.ca
+"OCP Master Node 68",ocpmaster68,192.168.0.87,ocpmaster68.home.ca
+"OCP Master Node 69",ocpmaster69,192.168.0.88,ocpmaster69.home.ca
+"OCP Master Node 70",ocpmaster70,192.168.0.89,ocpmaster70.home.ca
+"OCP Master Node 71",ocpmaster71,192.168.0.90,ocpmaster71.home.ca
+"OCP Master Node 72",ocpmaster72,192.168.0.91,ocpmaster72.home.ca
+"OCP Master Node 73",ocpmaster73,192.168.0.92,ocpmaster73.home.ca
+"OCP Master Node 74",ocpmaster74,192.168.0.93,ocpmaster74.home.ca
+"OCP Master Node 75",ocpmaster75,192.168.0.94,ocpmaster75.home.ca
+"OCP Master Node 76",ocpmaster76,192.168.0.95,ocpmaster76.home.ca
+"OCP Master Node 77",ocpmaster77,192.168.0.96,ocpmaster77.home.ca
+"OCP Master Node 78",ocpmaster78,192.168.0.97,ocpmaster78.home.ca
+"OCP Master Node 79",ocpmaster79,192.168.0.98,ocpmaster79.home.ca
+"OCP Master Node 80",ocpmaster80,192.168.0.99,ocpmaster80.home.ca
+"OCP Master Node 81",ocpmaster81,192.168.0.100,ocpmaster81.home.ca
+"OCP Master Node 82",ocpmaster82,192.168.0.101,ocpmaster82.home.ca
+"OCP Master Node 83",ocpmaster83,192.168.0.102,ocpmaster83.home.ca
+"OCP Master Node 84",ocpmaster84,192.168.0.103,ocpmaster84.home.ca
+"OCP Master Node 85",ocpmaster85,192.168.0.104,ocpmaster85.home.ca
+"OCP Master Node 86",ocpmaster86,192.168.0.105,ocpmaster86.home.ca
+"OCP Master Node 87",ocpmaster87,192.168.0.106,ocpmaster87.home.ca
+"OCP Master Node 88",ocpmaster88,192.168.0.107,ocpmaster88.home.ca
+"OCP Master Node 89",ocpmaster89,192.168.0.108,ocpmaster89.home.ca
+"OCP Master Node 90",ocpmaster90,192.168.0.109,ocpmaster90.home.ca
+"OCP Master Node 91",ocpmaster91,192.168.0.110,ocpmaster91.home.ca
+"OCP Master Node 92",ocpmaster92,192.168.0.111,ocpmaster92.home.ca
+"OCP Master Node 93",ocpmaster93,192.168.0.112,ocpmaster93.home.ca
+"OCP Master Node 94",ocpmaster94,192.168.0.113,ocpmaster94.home.ca
+"OCP Master Node 95",ocpmaster95,192.168.0.114,ocpmaster95.home.ca
+"OCP Master Node 96",ocpmaster96,192.168.0.115,ocpmaster96.home.ca
+"OCP Master Node 97",ocpmaster97,192.168.0.116,ocpmaster97.home.ca
+"OCP Master Node 98",ocpmaster98,192.168.0.117,ocpmaster98.home.ca
+"OCP Master Node 99",ocpmaster99,192.168.0.118,ocpmaster99.home.ca
+"OCP Master Node 100",ocpmaster100,192.168.0.119,ocpmaster100.home.ca
+"OCP Master Node 101",ocpmaster101,192.168.0.120,ocpmaster101.home.ca
+"OCP Master Node 102",ocpmaster102,192.168.0.121,ocpmaster102.home.ca
+"OCP Master Node 103",ocpmaster103,192.168.0.122,ocpmaster103.home.ca
+"OCP Master Node 104",ocpmaster104,192.168.0.123,ocpmaster104.home.ca
+"OCP Master Node 105",ocpmaster105,192.168.0.124,ocpmaster105.home.ca
+"OCP Master Node 106",ocpmaster106,192.168.0.125,ocpmaster106.home.ca
+"OCP Master Node 107",ocpmaster107,192.168.0.126,ocpmaster107.home.ca
+"OCP Master Node 108",ocpmaster108,192.168.0.127,ocpmaster108.home.ca
+"OCP Master Node 109",ocpmaster109,192.168.0.128,ocpmaster109.home.ca
+"OCP Master Node 110",ocpmaster110,192.168.0.129,ocpmaster110.home.ca
+"OCP Master Node 111",ocpmaster111,192.168.0.130,ocpmaster111.home.ca
+"OCP Master Node 112",ocpmaster112,192.168.0.131,ocpmaster112.home.ca
+"OCP Master Node 113",ocpmaster113,192.168.0.132,ocpmaster113.home.ca
+"OCP Master Node 114",ocpmaster114,192.168.0.133,ocpmaster114.home.ca
+"OCP Worker Node 1",ocpnode01,192.168.0.30,ocpnode01.home.ca
+"OCP Worker Node 2",ocpnode02,192.168.0.31,ocpnode02.home.ca
+"OCP Worker Node 3",ocpnode03,192.168.0.32,ocpnode03.home.ca
+"OCP Worker Node 4",ocpnode04,192.168.0.33,ocpnode04.home.ca
+"OCP Worker Node 5",ocpnode05,192.168.0.34,ocpnode05.home.ca
+"OCP Worker Node 6",ocpnode06,192.168.0.35,ocpnode06.home.ca
+"OCP Worker Node 7",ocpnode07,192.168.0.36,ocpnode07.home.ca
+"OCP Worker Node 8",ocpnode08,192.168.0.37,ocpnode08.home.ca
+"OCP Worker Node 9",ocpnode09,192.168.0.38,ocpnode09.home.ca
+"OCP Worker Node 10",ocpnode10,192.168.0.39,ocpnode10.home.ca
+"OCP Worker Node 11",ocpnode11,192.168.0.40,ocpnode11.home.ca
+"OCP Worker Node 12",ocpnode12,192.168.0.41,ocpnode12.home.ca
+"OCP Worker Node 13",ocpnode13,192.168.0.42,ocpnode13.home.ca
+"OCP Worker Node 14",ocpnode14,192.168.0.43,ocpnode14.home.ca
+"OCP Worker Node 15",ocpnode15,192.168.0.44,ocpnode15.home.ca
+"OCP Worker Node 16",ocpnode16,192.168.0.45,ocpnode16.home.ca
+"OCP Worker Node 17",ocpnode17,192.168.0.46,ocpnode17.home.ca
+"OCP Worker Node 18",ocpnode18,192.168.0.47,ocpnode18.home.ca
+"OCP Worker Node 19",ocpnode19,192.168.0.48,ocpnode19.home.ca
+"OCP Worker Node 20",ocpnode20,192.168.0.49,ocpnode20.home.ca
+"OCP Worker Node 21",ocpnode21,192.168.0.50,ocpnode21.home.ca
+"OCP Worker Node 22",ocpnode22,192.168.0.51,ocpnode22.home.ca
+"OCP Worker Node 23",ocpnode23,192.168.0.52,ocpnode23.home.ca
+"OCP Worker Node 24",ocpnode24,192.168.0.53,ocpnode24.home.ca
+"OCP Worker Node 25",ocpnode25,192.168.0.54,ocpnode25.home.ca
+"OCP Worker Node 26",ocpnode26,192.168.0.55,ocpnode26.home.ca
+"OCP Worker Node 27",ocpnode27,192.168.0.56,ocpnode27.home.ca
+"OCP Worker Node 28",ocpnode28,192.168.0.57,ocpnode28.home.ca
+"OCP Worker Node 29",ocpnode29,192.168.0.58,ocpnode29.home.ca
+"OCP Worker Node 30",ocpnode30,192.168.0.59,ocpnode30.home.ca
+"OCP Worker Node 31",ocpnode31,192.168.0.60,ocpnode31.home.ca
+"OCP Worker Node 32",ocpnode32,192.168.0.61,ocpnode32.home.ca
+"OCP Worker Node 33",ocpnode33,192.168.0.62,ocpnode33.home.ca
+"OCP Worker Node 34",ocpnode34,192.168.0.63,ocpnode34.home.ca
+"OCP Worker Node 35",ocpnode35,192.168.0.64,ocpnode35.home.ca
+"OCP Worker Node 36",ocpnode36,192.168.0.65,ocpnode36.home.ca
+"OCP Worker Node 37",ocpnode37,192.168.0.66,ocpnode37.home.ca
+"OCP Worker Node 38",ocpnode38,192.168.0.67,ocpnode38.home.ca
+"OCP Worker Node 39",ocpnode39,192.168.0.68,ocpnode39.home.ca
+"OCP Worker Node 40",ocpnode40,192.168.0.69,ocpnode40.home.ca
+"OCP Worker Node 41",ocpnode41,192.168.0.70,ocpnode41.home.ca
+"OCP Worker Node 42",ocpnode42,192.168.0.71,ocpnode42.home.ca
+"OCP Worker Node 43",ocpnode43,192.168.0.72,ocpnode43.home.ca
+"OCP Worker Node 44",ocpnode44,192.168.0.73,ocpnode44.home.ca
+"OCP Worker Node 45",ocpnode45,192.168.0.74,ocpnode45.home.ca
+"OCP Worker Node 46",ocpnode46,192.168.0.75,ocpnode46.home.ca
+"OCP Worker Node 47",ocpnode47,192.168.0.76,ocpnode47.home.ca
+"OCP Worker Node 48",ocpnode48,192.168.0.77,ocpnode48.home.ca
+"OCP Worker Node 49",ocpnode49,192.168.0.78,ocpnode49.home.ca
+"OCP Worker Node 50",ocpnode50,192.168.0.79,ocpnode50.home.ca
+"OCP Worker Node 51",ocpnode51,192.168.0.80,ocpnode51.home.ca
+"OCP Worker Node 52",ocpnode52,192.168.0.81,ocpnode52.home.ca
+"OCP Worker Node 53",ocpnode53,192.168.0.82,ocpnode53.home.ca
+"OCP Worker Node 54",ocpnode54,192.168.0.83,ocpnode54.home.ca
+"OCP Worker Node 55",ocpnode55,192.168.0.84,ocpnode55.home.ca
+"OCP Worker Node 56",ocpnode56,192.168.0.85,ocpnode56.home.ca
+"OCP Worker Node 57",ocpnode57,192.168.0.86,ocpnode57.home.ca
+"OCP Worker Node 58",ocpnode58,192.168.0.87,ocpnode58.home.ca
+"OCP Worker Node 59",ocpnode59,192.168.0.88,ocpnode59.home.ca
+"OCP Worker Node 60",ocpnode60,192.168.0.89,ocpnode60.home.ca
+"OCP Worker Node 61",ocpnode61,192.168.0.90,ocpnode61.home.ca
+"OCP Worker Node 62",ocpnode62,192.168.0.91,ocpnode62.home.ca
+"OCP Worker Node 63",ocpnode63,192.168.0.92,ocpnode63.home.ca
+"OCP Worker Node 64",ocpnode64,192.168.0.93,ocpnode64.home.ca
+"OCP Worker Node 65",ocpnode65,192.168.0.94,ocpnode65.home.ca
+"OCP Worker Node 66",ocpnode66,192.168.0.95,ocpnode66.home.ca
+"OCP Worker Node 67",ocpnode67,192.168.0.96,ocpnode67.home.ca
+"OCP Worker Node 68",ocpnode68,192.168.0.97,ocpnode68.home.ca
+"OCP Worker Node 69",ocpnode69,192.168.0.98,ocpnode69.home.ca
+"OCP Worker Node 70",ocpnode70,192.168.0.99,ocpnode70.home.ca
+"OCP Worker Node 71",ocpnode71,192.168.0.100,ocpnode71.home.ca
+"OCP Worker Node 72",ocpnode72,192.168.0.101,ocpnode72.home.ca
+"OCP Worker Node 73",ocpnode73,192.168.0.102,ocpnode73.home.ca
+"OCP Worker Node 74",ocpnode74,192.168.0.103,ocpnode74.home.ca
+"OCP Worker Node 75",ocpnode75,192.168.0.104,ocpnode75.home.ca
+"OCP Worker Node 76",ocpnode76,192.168.0.105,ocpnode76.home.ca
+"OCP Worker Node 77",ocpnode77,192.168.0.106,ocpnode77.home.ca
+"OCP Worker Node 78",ocpnode78,192.168.0.107,ocpnode78.home.ca
+"OCP Worker Node 79",ocpnode79,192.168.0.108,ocpnode79.home.ca
+"OCP Worker Node 80",ocpnode80,192.168.0.109,ocpnode80.home.ca
+"OCP Worker Node 81",ocpnode81,192.168.0.110,ocpnode81.home.ca
+"OCP Worker Node 82",ocpnode82,192.168.0.111,ocpnode82.home.ca
+"OCP Worker Node 83",ocpnode83,192.168.0.112,ocpnode83.home.ca
+"OCP Worker Node 84",ocpnode84,192.168.0.113,ocpnode84.home.ca
+"OCP Worker Node 85",ocpnode85,192.168.0.114,ocpnode85.home.ca
+"OCP Worker Node 86",ocpnode86,192.168.0.115,ocpnode86.home.ca
+"OCP Worker Node 87",ocpnode87,192.168.0.116,ocpnode87.home.ca
+"OCP Worker Node 88",ocpnode88,192.168.0.117,ocpnode88.home.ca
+"OCP Worker Node 89",ocpnode89,192.168.0.118,ocpnode89.home.ca
+"OCP Worker Node 90",ocpnode90,192.168.0.119,ocpnode90.home.ca
+"OCP Worker Node 91",ocpnode91,192.168.0.120,ocpnode91.home.ca
+"OCP Worker Node 92",ocpnode92,192.168.0.121,ocpnode92.home.ca
+"OCP Worker Node 93",ocpnode93,192.168.0.122,ocpnode93.home.ca
+"OCP Worker Node 94",ocpnode94,192.168.0.123,ocpnode94.home.ca
+"OCP Worker Node 95",ocpnode95,192.168.0.124,ocpnode95.home.ca
+"OCP Worker Node 96",ocpnode96,192.168.0.125,ocpnode96.home.ca
+"OCP Worker Node 97",ocpnode97,192.168.0.126,ocpnode97.home.ca
+"OCP Worker Node 98",ocpnode98,192.168.0.127,ocpnode98.home.ca
+"OCP Worker Node 99",ocpnode99,192.168.0.128,ocpnode99.home.ca
+"OCP Worker Node 100",ocpnode100,192.168.0.129,ocpnode100.home.ca
+"OCP Worker Node 101",ocpnode101,192.168.0.130,ocpnode101.home.ca
+"OCP Worker Node 102",ocpnode102,192.168.0.131,ocpnode102.home.ca
+"OCP Worker Node 103",ocpnode103,192.168.0.132,ocpnode103.home.ca
+"Ansible Host 1",ansibleh01,192.168.0.144,ansibleh01.home.ca
+"Ansible Host 2",ansibleh02,192.168.0.145,ansibleh02.home.ca
+"Ansible Host 3",ansibleh03,192.168.0.146,ansibleh03.home.ca
+"Ansible Host 4",ansibleh04,192.168.0.147,ansibleh04.home.ca
+"Ansible Host 5",ansibleh05,192.168.0.148,ansibleh05.home.ca
+"Ansible Host 6",ansibleh06,192.168.0.149,ansibleh06.home.ca
+"Ansible Host 7",ansibleh07,192.168.0.150,ansibleh07.home.ca
+"Ansible Host 8",ansibleh08,192.168.0.151,ansibleh08.home.ca
+"Ansible Host 9",ansibleh09,192.168.0.152,ansibleh09.home.ca
+"Ansible Host 10",ansibleh10,192.168.0.153,ansibleh10.home.ca
+"Ansible Host 11",ansibleh11,192.168.0.154,ansibleh11.home.ca
+"Ansible Host 12",ansibleh12,192.168.0.155,ansibleh12.home.ca
+"Ansible Host 13",ansibleh13,192.168.0.156,ansibleh13.home.ca
+"Ansible Host 14",ansibleh14,192.168.0.157,ansibleh14.home.ca
+"Ansible Host 15",ansibleh15,192.168.0.158,ansibleh15.home.ca
+"Ansible Host 16",ansibleh16,192.168.0.159,ansibleh16.home.ca
+"Ansible Host 17",ansibleh17,192.168.0.160,ansibleh17.home.ca
+"Ansible Host 18",ansibleh18,192.168.0.161,ansibleh18.home.ca
+"Ansible Host 19",ansibleh19,192.168.0.162,ansibleh19.home.ca
+"Ansible Host 20",ansibleh20,192.168.0.163,ansibleh20.home.ca
+"Ansible Host 21",ansibleh21,192.168.0.164,ansibleh21.home.ca
+"Ansible Host 22",ansibleh22,192.168.0.165,ansibleh22.home.ca
+"Ansible Host 23",ansibleh23,192.168.0.166,ansibleh23.home.ca
+"Ansible Host 24",ansibleh24,192.168.0.167,ansibleh24.home.ca
+"Ansible Host 25",ansibleh25,192.168.0.168,ansibleh25.home.ca
+"Ansible Host 26",ansibleh26,192.168.0.169,ansibleh26.home.ca
+"Ansible Host 27",ansibleh27,192.168.0.170,ansibleh27.home.ca
+"Ansible Host 28",ansibleh28,192.168.0.171,ansibleh28.home.ca
+"Ansible Host 29",ansibleh29,192.168.0.172,ansibleh29.home.ca
+"Ansible Host 30",ansibleh30,192.168.0.173,ansibleh30.home.ca
+"Ansible Host 31",ansibleh31,192.168.0.174,ansibleh31.home.ca
+"Ansible Host 32",ansibleh32,192.168.0.175,ansibleh32.home.ca
+"Ansible Host 33",ansibleh33,192.168.0.176,ansibleh33.home.ca
+"Ansible Host 34",ansibleh34,192.168.0.177,ansibleh34.home.ca
+"Ansible Host 35",ansibleh35,192.168.0.178,ansibleh35.home.ca
+"Ansible Host 36",ansibleh36,192.168.0.179,ansibleh36.home.ca
+"Ansible Host 37",ansibleh37,192.168.0.180,ansibleh37.home.ca
+"Ansible Host 38",ansibleh38,192.168.0.181,ansibleh38.home.ca
+"Ansible Host 39",ansibleh39,192.168.0.182,ansibleh39.home.ca
+"Ansible Host 40",ansibleh40,192.168.0.183,ansibleh40.home.ca
+"Ansible Host 41",ansibleh41,192.168.0.184,ansibleh41.home.ca
+"Ansible Host 42",ansibleh42,192.168.0.185,ansibleh42.home.ca
+"Ansible Host 43",ansibleh43,192.168.0.186,ansibleh43.home.ca
+"Ansible Host 44",ansibleh44,192.168.0.187,ansibleh44.home.ca
+"Ansible Host 45",ansibleh45,192.168.0.188,ansibleh45.home.ca
+"Ansible Host 46",ansibleh46,192.168.0.189,ansibleh46.home.ca
+"Ansible Host 47",ansibleh47,192.168.0.190,ansibleh47.home.ca
+"Ansible Host 48",ansibleh48,192.168.0.191,ansibleh48.home.ca
+"Ansible Host 49",ansibleh49,192.168.0.192,ansibleh49.home.ca
+"Ansible Host 50",ansibleh50,192.168.0.193,ansibleh50.home.ca
+"Ansible Host 51",ansibleh51,192.168.0.194,ansibleh51.home.ca
+"Ansible Host 52",ansibleh52,192.168.0.195,ansibleh52.home.ca
+"Ansible Host 53",ansibleh53,192.168.0.196,ansibleh53.home.ca
+"Ansible Host 54",ansibleh54,192.168.0.197,ansibleh54.home.ca
+"Ansible Host 55",ansibleh55,192.168.0.198,ansibleh55.home.ca
+"Ansible Host 56",ansibleh56,192.168.0.199,ansibleh56.home.ca
+"Ansible Host 57",ansibleh57,192.168.0.200,ansibleh57.home.ca
+"Ansible Host 58",ansibleh58,192.168.0.201,ansibleh58.home.ca
+"Ansible Host 59",ansibleh59,192.168.0.202,ansibleh59.home.ca
+"Ansible Host 60",ansibleh60,192.168.0.203,ansibleh60.home.ca
+"Ansible Host 61",ansibleh61,192.168.0.204,ansibleh61.home.ca
+"Ansible Host 62",ansibleh62,192.168.0.205,ansibleh62.home.ca
+"Ansible Host 63",ansibleh63,192.168.0.206,ansibleh63.home.ca
+"Ansible Host 64",ansibleh64,192.168.0.207,ansibleh64.home.ca
+"Ansible Host 65",ansibleh65,192.168.0.208,ansibleh65.home.ca
+"Ansible Host 66",ansibleh66,192.168.0.209,ansibleh66.home.ca
+"Ansible Host 67",ansibleh67,192.168.0.210,ansibleh67.home.ca
+"Ansible Host 68",ansibleh68,192.168.0.211,ansibleh68.home.ca
+"Ansible Host 69",ansibleh69,192.168.0.212,ansibleh69.home.ca
+"Ansible Host 70",ansibleh70,192.168.0.213,ansibleh70.home.ca
+"Ansible Host 71",ansibleh71,192.168.0.214,ansibleh71.home.ca
+"Ansible Host 72",ansibleh72,192.168.0.215,ansibleh72.home.ca
+"Ansible Host 73",ansibleh73,192.168.0.216,ansibleh73.home.ca
+"Ansible Host 74",ansibleh74,192.168.0.217,ansibleh74.home.ca
+"Ansible Host 75",ansibleh75,192.168.0.218,ansibleh75.home.ca
+"Ansible Host 76",ansibleh76,192.168.0.219,ansibleh76.home.ca
+"Ansible Host 77",ansibleh77,192.168.0.220,ansibleh77.home.ca
+"Ansible Host 78",ansibleh78,192.168.0.221,ansibleh78.home.ca
+"Ansible Host 79",ansibleh79,192.168.0.222,ansibleh79.home.ca
+"Ansible Host 80",ansibleh80,192.168.0.223,ansibleh80.home.ca
+"Ansible Host 81",ansibleh81,192.168.0.224,ansibleh81.home.ca
+"Ansible Host 82",ansibleh82,192.168.0.225,ansibleh82.home.ca
+"Ansible Host 83",ansibleh83,192.168.0.226,ansibleh83.home.ca
+"Ansible Host 84",ansibleh84,192.168.0.227,ansibleh84.home.ca
+"Ansible Host 85",ansibleh85,192.168.0.228,ansibleh85.home.ca
+"Ansible Host 86",ansibleh86,192.168.0.229,ansibleh86.home.ca
+"Ansible Host 87",ansibleh87,192.168.0.230,ansibleh87.home.ca
+"Ansible Host 88",ansibleh88,192.168.0.231,ansibleh88.home.ca
+"Ansible Host 89",ansibleh89,192.168.0.232,ansibleh89.home.ca
+"Ansible Host 90",ansibleh90,192.168.0.233,ansibleh90.home.ca
+"Ansible Host 91",ansibleh91,192.168.0.234,ansibleh91.home.ca
+"Ansible Host 92",ansibleh92,192.168.0.235,ansibleh92.home.ca
+"Ansible Host 93",ansibleh93,192.168.0.236,ansibleh93.home.ca
+"Ansible Host 94",ansibleh94,192.168.0.237,ansibleh94.home.ca
+"Ansible Host 95",ansibleh95,192.168.0.238,ansibleh95.home.ca
+"Ansible Host 96",ansibleh96,192.168.0.239,ansibleh96.home.ca
+"Ansible Host 97",ansibleh97,192.168.0.240,ansibleh97.home.ca
+"Ansible Host 98",ansibleh98,192.168.0.241,ansibleh98.home.ca
+"Ansible Host 99",ansibleh99,192.168.0.242,ansibleh99.home.ca
+"Ansible Host 100",ansibleh100,192.168.0.243,ansibleh100.home.ca
+"Ansible Host 101",ansibleh101,192.168.0.244,ansibleh101.home.ca
+"Ansible Host 102",ansibleh102,192.168.0.245,ansibleh102.home.ca
+"Ansible Host 103",ansibleh103,192.168.0.246,ansibleh103.home.ca
+"Ansible Host 104",ansibleh104,192.168.0.247,ansibleh104.home.ca
+"Ansible Host 105",ansibleh105,192.168.0.248,ansibleh105.home.ca
+"Ansible Host 106",ansibleh106,192.168.0.249,ansibleh106.home.ca
+"Ansible Host 107",ansibleh107,192.168.0.250,ansibleh107.home.ca
+"Ansible Host 108",ansibleh108,192.168.0.251,ansibleh108.home.ca
+"Ansible Host 109",ansibleh109,192.168.0.252,ansibleh109.home.ca
+"Ansible Host 110",ansibleh110,192.168.0.253,ansibleh110.home.ca
+"Ansible Host 111",ansibleh111,192.168.0.254,ansibleh111.home.ca
+"Ansible Host 112",ansibleh112,192.168.0.255,ansibleh112.home.ca
+
+
+
+---------------------------------------------------------------------
+                After
+---------------------------------------------------------------------
+
+
+192.168.0.20	ocpmaster01.home.ca	ocpmaster01	#OCP Master Node 1
+192.168.0.21	ocpmaster02.home.ca	ocpmaster02	#OCP Master Node 2
+192.168.0.22	ocpmaster03.home.ca	ocpmaster03	#OCP Master Node 3
+192.168.0.23	ocpmaster04.home.ca	ocpmaster04	#OCP Master Node 4
+192.168.0.24	ocpmaster05.home.ca	ocpmaster05	#OCP Master Node 5
+192.168.0.25	ocpmaster06.home.ca	ocpmaster06	#OCP Master Node 6
+192.168.0.26	ocpmaster07.home.ca	ocpmaster07	#OCP Master Node 7
+192.168.0.27	ocpmaster08.home.ca	ocpmaster08	#OCP Master Node 8
+192.168.0.28	ocpmaster09.home.ca	ocpmaster09	#OCP Master Node 9
+192.168.0.29	ocpmaster10.home.ca	ocpmaster10	#OCP Master Node 10
+192.168.0.30	ocpmaster11.home.ca	ocpmaster11	#OCP Master Node 11
+192.168.0.31	ocpmaster12.home.ca	ocpmaster12	#OCP Master Node 12
+192.168.0.32	ocpmaster13.home.ca	ocpmaster13	#OCP Master Node 13
+192.168.0.33	ocpmaster14.home.ca	ocpmaster14	#OCP Master Node 14
+192.168.0.34	ocpmaster15.home.ca	ocpmaster15	#OCP Master Node 15
+192.168.0.35	ocpmaster16.home.ca	ocpmaster16	#OCP Master Node 16
+192.168.0.36	ocpmaster17.home.ca	ocpmaster17	#OCP Master Node 17
+192.168.0.37	ocpmaster18.home.ca	ocpmaster18	#OCP Master Node 18
+192.168.0.38	ocpmaster19.home.ca	ocpmaster19	#OCP Master Node 19
+192.168.0.39	ocpmaster20.home.ca	ocpmaster20	#OCP Master Node 20
+192.168.0.40	ocpmaster21.home.ca	ocpmaster21	#OCP Master Node 21
+192.168.0.41	ocpmaster22.home.ca	ocpmaster22	#OCP Master Node 22
+192.168.0.42	ocpmaster23.home.ca	ocpmaster23	#OCP Master Node 23
+192.168.0.43	ocpmaster24.home.ca	ocpmaster24	#OCP Master Node 24
+192.168.0.44	ocpmaster25.home.ca	ocpmaster25	#OCP Master Node 25
+192.168.0.45	ocpmaster26.home.ca	ocpmaster26	#OCP Master Node 26
+192.168.0.46	ocpmaster27.home.ca	ocpmaster27	#OCP Master Node 27
+192.168.0.47	ocpmaster28.home.ca	ocpmaster28	#OCP Master Node 28
+192.168.0.48	ocpmaster29.home.ca	ocpmaster29	#OCP Master Node 29
+192.168.0.49	ocpmaster30.home.ca	ocpmaster30	#OCP Master Node 30
+192.168.0.50	ocpmaster31.home.ca	ocpmaster31	#OCP Master Node 31
+192.168.0.51	ocpmaster32.home.ca	ocpmaster32	#OCP Master Node 32
+192.168.0.52	ocpmaster33.home.ca	ocpmaster33	#OCP Master Node 33
+192.168.0.53	ocpmaster34.home.ca	ocpmaster34	#OCP Master Node 34
+192.168.0.54	ocpmaster35.home.ca	ocpmaster35	#OCP Master Node 35
+192.168.0.55	ocpmaster36.home.ca	ocpmaster36	#OCP Master Node 36
+192.168.0.56	ocpmaster37.home.ca	ocpmaster37	#OCP Master Node 37
+192.168.0.57	ocpmaster38.home.ca	ocpmaster38	#OCP Master Node 38
+192.168.0.58	ocpmaster39.home.ca	ocpmaster39	#OCP Master Node 39
+192.168.0.59	ocpmaster40.home.ca	ocpmaster40	#OCP Master Node 40
+192.168.0.60	ocpmaster41.home.ca	ocpmaster41	#OCP Master Node 41
+192.168.0.61	ocpmaster42.home.ca	ocpmaster42	#OCP Master Node 42
+192.168.0.62	ocpmaster43.home.ca	ocpmaster43	#OCP Master Node 43
+192.168.0.63	ocpmaster44.home.ca	ocpmaster44	#OCP Master Node 44
+192.168.0.64	ocpmaster45.home.ca	ocpmaster45	#OCP Master Node 45
+192.168.0.65	ocpmaster46.home.ca	ocpmaster46	#OCP Master Node 46
+192.168.0.66	ocpmaster47.home.ca	ocpmaster47	#OCP Master Node 47
+192.168.0.67	ocpmaster48.home.ca	ocpmaster48	#OCP Master Node 48
+192.168.0.68	ocpmaster49.home.ca	ocpmaster49	#OCP Master Node 49
+192.168.0.69	ocpmaster50.home.ca	ocpmaster50	#OCP Master Node 50
+192.168.0.70	ocpmaster51.home.ca	ocpmaster51	#OCP Master Node 51
+192.168.0.71	ocpmaster52.home.ca	ocpmaster52	#OCP Master Node 52
+192.168.0.72	ocpmaster53.home.ca	ocpmaster53	#OCP Master Node 53
+192.168.0.73	ocpmaster54.home.ca	ocpmaster54	#OCP Master Node 54
+192.168.0.74	ocpmaster55.home.ca	ocpmaster55	#OCP Master Node 55
+192.168.0.75	ocpmaster56.home.ca	ocpmaster56	#OCP Master Node 56
+192.168.0.76	ocpmaster57.home.ca	ocpmaster57	#OCP Master Node 57
+192.168.0.77	ocpmaster58.home.ca	ocpmaster58	#OCP Master Node 58
+192.168.0.78	ocpmaster59.home.ca	ocpmaster59	#OCP Master Node 59
+192.168.0.79	ocpmaster60.home.ca	ocpmaster60	#OCP Master Node 60
+192.168.0.80	ocpmaster61.home.ca	ocpmaster61	#OCP Master Node 61
+192.168.0.81	ocpmaster62.home.ca	ocpmaster62	#OCP Master Node 62
+192.168.0.82	ocpmaster63.home.ca	ocpmaster63	#OCP Master Node 63
+192.168.0.83	ocpmaster64.home.ca	ocpmaster64	#OCP Master Node 64
+192.168.0.84	ocpmaster65.home.ca	ocpmaster65	#OCP Master Node 65
+192.168.0.85	ocpmaster66.home.ca	ocpmaster66	#OCP Master Node 66
+192.168.0.86	ocpmaster67.home.ca	ocpmaster67	#OCP Master Node 67
+192.168.0.87	ocpmaster68.home.ca	ocpmaster68	#OCP Master Node 68
+192.168.0.88	ocpmaster69.home.ca	ocpmaster69	#OCP Master Node 69
+192.168.0.89	ocpmaster70.home.ca	ocpmaster70	#OCP Master Node 70
+192.168.0.90	ocpmaster71.home.ca	ocpmaster71	#OCP Master Node 71
+192.168.0.91	ocpmaster72.home.ca	ocpmaster72	#OCP Master Node 72
+192.168.0.92	ocpmaster73.home.ca	ocpmaster73	#OCP Master Node 73
+192.168.0.93	ocpmaster74.home.ca	ocpmaster74	#OCP Master Node 74
+192.168.0.94	ocpmaster75.home.ca	ocpmaster75	#OCP Master Node 75
+192.168.0.95	ocpmaster76.home.ca	ocpmaster76	#OCP Master Node 76
+192.168.0.96	ocpmaster77.home.ca	ocpmaster77	#OCP Master Node 77
+192.168.0.97	ocpmaster78.home.ca	ocpmaster78	#OCP Master Node 78
+192.168.0.98	ocpmaster79.home.ca	ocpmaster79	#OCP Master Node 79
+192.168.0.99	ocpmaster80.home.ca	ocpmaster80	#OCP Master Node 80
+192.168.0.100	ocpmaster81.home.ca	ocpmaster81	#OCP Master Node 81
+192.168.0.101	ocpmaster82.home.ca	ocpmaster82	#OCP Master Node 82
+192.168.0.102	ocpmaster83.home.ca	ocpmaster83	#OCP Master Node 83
+192.168.0.103	ocpmaster84.home.ca	ocpmaster84	#OCP Master Node 84
+192.168.0.104	ocpmaster85.home.ca	ocpmaster85	#OCP Master Node 85
+192.168.0.105	ocpmaster86.home.ca	ocpmaster86	#OCP Master Node 86
+192.168.0.106	ocpmaster87.home.ca	ocpmaster87	#OCP Master Node 87
+192.168.0.107	ocpmaster88.home.ca	ocpmaster88	#OCP Master Node 88
+192.168.0.108	ocpmaster89.home.ca	ocpmaster89	#OCP Master Node 89
+192.168.0.109	ocpmaster90.home.ca	ocpmaster90	#OCP Master Node 90
+192.168.0.110	ocpmaster91.home.ca	ocpmaster91	#OCP Master Node 91
+192.168.0.111	ocpmaster92.home.ca	ocpmaster92	#OCP Master Node 92
+192.168.0.112	ocpmaster93.home.ca	ocpmaster93	#OCP Master Node 93
+192.168.0.113	ocpmaster94.home.ca	ocpmaster94	#OCP Master Node 94
+192.168.0.114	ocpmaster95.home.ca	ocpmaster95	#OCP Master Node 95
+192.168.0.115	ocpmaster96.home.ca	ocpmaster96	#OCP Master Node 96
+192.168.0.116	ocpmaster97.home.ca	ocpmaster97	#OCP Master Node 97
+192.168.0.117	ocpmaster98.home.ca	ocpmaster98	#OCP Master Node 98
+192.168.0.118	ocpmaster99.home.ca	ocpmaster99	#OCP Master Node 99
+192.168.0.119	ocpmaster100.home.ca	ocpmaster100	#OCP Master Node 100
+192.168.0.120	ocpmaster101.home.ca	ocpmaster101	#OCP Master Node 101
+192.168.0.121	ocpmaster102.home.ca	ocpmaster102	#OCP Master Node 102
+192.168.0.122	ocpmaster103.home.ca	ocpmaster103	#OCP Master Node 103
+192.168.0.123	ocpmaster104.home.ca	ocpmaster104	#OCP Master Node 104
+192.168.0.124	ocpmaster105.home.ca	ocpmaster105	#OCP Master Node 105
+192.168.0.125	ocpmaster106.home.ca	ocpmaster106	#OCP Master Node 106
+192.168.0.126	ocpmaster107.home.ca	ocpmaster107	#OCP Master Node 107
+192.168.0.127	ocpmaster108.home.ca	ocpmaster108	#OCP Master Node 108
+192.168.0.128	ocpmaster109.home.ca	ocpmaster109	#OCP Master Node 109
+192.168.0.129	ocpmaster110.home.ca	ocpmaster110	#OCP Master Node 110
+192.168.0.130	ocpmaster111.home.ca	ocpmaster111	#OCP Master Node 111
+192.168.0.131	ocpmaster112.home.ca	ocpmaster112	#OCP Master Node 112
+192.168.0.132	ocpmaster113.home.ca	ocpmaster113	#OCP Master Node 113
+192.168.0.133	ocpmaster114.home.ca	ocpmaster114	#OCP Master Node 114
+192.168.0.30	ocpnode01.home.ca	ocpnode01	#OCP Worker Node 1
+192.168.0.31	ocpnode02.home.ca	ocpnode02	#OCP Worker Node 2
+192.168.0.32	ocpnode03.home.ca	ocpnode03	#OCP Worker Node 3
+192.168.0.33	ocpnode04.home.ca	ocpnode04	#OCP Worker Node 4
+192.168.0.34	ocpnode05.home.ca	ocpnode05	#OCP Worker Node 5
+192.168.0.35	ocpnode06.home.ca	ocpnode06	#OCP Worker Node 6
+192.168.0.36	ocpnode07.home.ca	ocpnode07	#OCP Worker Node 7
+192.168.0.37	ocpnode08.home.ca	ocpnode08	#OCP Worker Node 8
+192.168.0.38	ocpnode09.home.ca	ocpnode09	#OCP Worker Node 9
+192.168.0.39	ocpnode10.home.ca	ocpnode10	#OCP Worker Node 10
+192.168.0.40	ocpnode11.home.ca	ocpnode11	#OCP Worker Node 11
+192.168.0.41	ocpnode12.home.ca	ocpnode12	#OCP Worker Node 12
+192.168.0.42	ocpnode13.home.ca	ocpnode13	#OCP Worker Node 13
+192.168.0.43	ocpnode14.home.ca	ocpnode14	#OCP Worker Node 14
+192.168.0.44	ocpnode15.home.ca	ocpnode15	#OCP Worker Node 15
+192.168.0.45	ocpnode16.home.ca	ocpnode16	#OCP Worker Node 16
+192.168.0.46	ocpnode17.home.ca	ocpnode17	#OCP Worker Node 17
+192.168.0.47	ocpnode18.home.ca	ocpnode18	#OCP Worker Node 18
+192.168.0.48	ocpnode19.home.ca	ocpnode19	#OCP Worker Node 19
+192.168.0.49	ocpnode20.home.ca	ocpnode20	#OCP Worker Node 20
+192.168.0.50	ocpnode21.home.ca	ocpnode21	#OCP Worker Node 21
+192.168.0.51	ocpnode22.home.ca	ocpnode22	#OCP Worker Node 22
+192.168.0.52	ocpnode23.home.ca	ocpnode23	#OCP Worker Node 23
+192.168.0.53	ocpnode24.home.ca	ocpnode24	#OCP Worker Node 24
+192.168.0.54	ocpnode25.home.ca	ocpnode25	#OCP Worker Node 25
+192.168.0.55	ocpnode26.home.ca	ocpnode26	#OCP Worker Node 26
+192.168.0.56	ocpnode27.home.ca	ocpnode27	#OCP Worker Node 27
+192.168.0.57	ocpnode28.home.ca	ocpnode28	#OCP Worker Node 28
+192.168.0.58	ocpnode29.home.ca	ocpnode29	#OCP Worker Node 29
+192.168.0.59	ocpnode30.home.ca	ocpnode30	#OCP Worker Node 30
+192.168.0.60	ocpnode31.home.ca	ocpnode31	#OCP Worker Node 31
+192.168.0.61	ocpnode32.home.ca	ocpnode32	#OCP Worker Node 32
+192.168.0.62	ocpnode33.home.ca	ocpnode33	#OCP Worker Node 33
+192.168.0.63	ocpnode34.home.ca	ocpnode34	#OCP Worker Node 34
+192.168.0.64	ocpnode35.home.ca	ocpnode35	#OCP Worker Node 35
+192.168.0.65	ocpnode36.home.ca	ocpnode36	#OCP Worker Node 36
+192.168.0.66	ocpnode37.home.ca	ocpnode37	#OCP Worker Node 37
+192.168.0.67	ocpnode38.home.ca	ocpnode38	#OCP Worker Node 38
+192.168.0.68	ocpnode39.home.ca	ocpnode39	#OCP Worker Node 39
+192.168.0.69	ocpnode40.home.ca	ocpnode40	#OCP Worker Node 40
+192.168.0.70	ocpnode41.home.ca	ocpnode41	#OCP Worker Node 41
+192.168.0.71	ocpnode42.home.ca	ocpnode42	#OCP Worker Node 42
+192.168.0.72	ocpnode43.home.ca	ocpnode43	#OCP Worker Node 43
+192.168.0.73	ocpnode44.home.ca	ocpnode44	#OCP Worker Node 44
+192.168.0.74	ocpnode45.home.ca	ocpnode45	#OCP Worker Node 45
+192.168.0.75	ocpnode46.home.ca	ocpnode46	#OCP Worker Node 46
+192.168.0.76	ocpnode47.home.ca	ocpnode47	#OCP Worker Node 47
+192.168.0.77	ocpnode48.home.ca	ocpnode48	#OCP Worker Node 48
+192.168.0.78	ocpnode49.home.ca	ocpnode49	#OCP Worker Node 49
+192.168.0.79	ocpnode50.home.ca	ocpnode50	#OCP Worker Node 50
+192.168.0.80	ocpnode51.home.ca	ocpnode51	#OCP Worker Node 51
+192.168.0.81	ocpnode52.home.ca	ocpnode52	#OCP Worker Node 52
+192.168.0.82	ocpnode53.home.ca	ocpnode53	#OCP Worker Node 53
+192.168.0.83	ocpnode54.home.ca	ocpnode54	#OCP Worker Node 54
+192.168.0.84	ocpnode55.home.ca	ocpnode55	#OCP Worker Node 55
+192.168.0.85	ocpnode56.home.ca	ocpnode56	#OCP Worker Node 56
+192.168.0.86	ocpnode57.home.ca	ocpnode57	#OCP Worker Node 57
+192.168.0.87	ocpnode58.home.ca	ocpnode58	#OCP Worker Node 58
+192.168.0.88	ocpnode59.home.ca	ocpnode59	#OCP Worker Node 59
+192.168.0.89	ocpnode60.home.ca	ocpnode60	#OCP Worker Node 60
+192.168.0.90	ocpnode61.home.ca	ocpnode61	#OCP Worker Node 61
+192.168.0.91	ocpnode62.home.ca	ocpnode62	#OCP Worker Node 62
+192.168.0.92	ocpnode63.home.ca	ocpnode63	#OCP Worker Node 63
+192.168.0.93	ocpnode64.home.ca	ocpnode64	#OCP Worker Node 64
+192.168.0.94	ocpnode65.home.ca	ocpnode65	#OCP Worker Node 65
+192.168.0.95	ocpnode66.home.ca	ocpnode66	#OCP Worker Node 66
+192.168.0.96	ocpnode67.home.ca	ocpnode67	#OCP Worker Node 67
+192.168.0.97	ocpnode68.home.ca	ocpnode68	#OCP Worker Node 68
+192.168.0.98	ocpnode69.home.ca	ocpnode69	#OCP Worker Node 69
+192.168.0.99	ocpnode70.home.ca	ocpnode70	#OCP Worker Node 70
+192.168.0.100	ocpnode71.home.ca	ocpnode71	#OCP Worker Node 71
+192.168.0.101	ocpnode72.home.ca	ocpnode72	#OCP Worker Node 72
+192.168.0.102	ocpnode73.home.ca	ocpnode73	#OCP Worker Node 73
+192.168.0.103	ocpnode74.home.ca	ocpnode74	#OCP Worker Node 74
+192.168.0.104	ocpnode75.home.ca	ocpnode75	#OCP Worker Node 75
+192.168.0.105	ocpnode76.home.ca	ocpnode76	#OCP Worker Node 76
+192.168.0.106	ocpnode77.home.ca	ocpnode77	#OCP Worker Node 77
+192.168.0.107	ocpnode78.home.ca	ocpnode78	#OCP Worker Node 78
+192.168.0.108	ocpnode79.home.ca	ocpnode79	#OCP Worker Node 79
+192.168.0.109	ocpnode80.home.ca	ocpnode80	#OCP Worker Node 80
+192.168.0.110	ocpnode81.home.ca	ocpnode81	#OCP Worker Node 81
+192.168.0.111	ocpnode82.home.ca	ocpnode82	#OCP Worker Node 82
+192.168.0.112	ocpnode83.home.ca	ocpnode83	#OCP Worker Node 83
+192.168.0.113	ocpnode84.home.ca	ocpnode84	#OCP Worker Node 84
+192.168.0.114	ocpnode85.home.ca	ocpnode85	#OCP Worker Node 85
+192.168.0.115	ocpnode86.home.ca	ocpnode86	#OCP Worker Node 86
+192.168.0.116	ocpnode87.home.ca	ocpnode87	#OCP Worker Node 87
+192.168.0.117	ocpnode88.home.ca	ocpnode88	#OCP Worker Node 88
+192.168.0.118	ocpnode89.home.ca	ocpnode89	#OCP Worker Node 89
+192.168.0.119	ocpnode90.home.ca	ocpnode90	#OCP Worker Node 90
+192.168.0.120	ocpnode91.home.ca	ocpnode91	#OCP Worker Node 91
+192.168.0.121	ocpnode92.home.ca	ocpnode92	#OCP Worker Node 92
+192.168.0.122	ocpnode93.home.ca	ocpnode93	#OCP Worker Node 93
+192.168.0.123	ocpnode94.home.ca	ocpnode94	#OCP Worker Node 94
+192.168.0.124	ocpnode95.home.ca	ocpnode95	#OCP Worker Node 95
+192.168.0.125	ocpnode96.home.ca	ocpnode96	#OCP Worker Node 96
+192.168.0.126	ocpnode97.home.ca	ocpnode97	#OCP Worker Node 97
+192.168.0.127	ocpnode98.home.ca	ocpnode98	#OCP Worker Node 98
+192.168.0.128	ocpnode99.home.ca	ocpnode99	#OCP Worker Node 99
+192.168.0.129	ocpnode100.home.ca	ocpnode100	#OCP Worker Node 100
+192.168.0.130	ocpnode101.home.ca	ocpnode101	#OCP Worker Node 101
+192.168.0.131	ocpnode102.home.ca	ocpnode102	#OCP Worker Node 102
+192.168.0.132	ocpnode103.home.ca	ocpnode103	#OCP Worker Node 103
+192.168.0.144	ansibleh01.home.ca	ansibleh01	#Ansible Host 1
+192.168.0.145	ansibleh02.home.ca	ansibleh02	#Ansible Host 2
+192.168.0.146	ansibleh03.home.ca	ansibleh03	#Ansible Host 3
+192.168.0.147	ansibleh04.home.ca	ansibleh04	#Ansible Host 4
+192.168.0.148	ansibleh05.home.ca	ansibleh05	#Ansible Host 5
+192.168.0.149	ansibleh06.home.ca	ansibleh06	#Ansible Host 6
+192.168.0.150	ansibleh07.home.ca	ansibleh07	#Ansible Host 7
+192.168.0.151	ansibleh08.home.ca	ansibleh08	#Ansible Host 8
+192.168.0.152	ansibleh09.home.ca	ansibleh09	#Ansible Host 9
+192.168.0.153	ansibleh10.home.ca	ansibleh10	#Ansible Host 10
+192.168.0.154	ansibleh11.home.ca	ansibleh11	#Ansible Host 11
+192.168.0.155	ansibleh12.home.ca	ansibleh12	#Ansible Host 12
+192.168.0.156	ansibleh13.home.ca	ansibleh13	#Ansible Host 13
+192.168.0.157	ansibleh14.home.ca	ansibleh14	#Ansible Host 14
+192.168.0.158	ansibleh15.home.ca	ansibleh15	#Ansible Host 15
+192.168.0.159	ansibleh16.home.ca	ansibleh16	#Ansible Host 16
+192.168.0.160	ansibleh17.home.ca	ansibleh17	#Ansible Host 17
+192.168.0.161	ansibleh18.home.ca	ansibleh18	#Ansible Host 18
+192.168.0.162	ansibleh19.home.ca	ansibleh19	#Ansible Host 19
+192.168.0.163	ansibleh20.home.ca	ansibleh20	#Ansible Host 20
+192.168.0.164	ansibleh21.home.ca	ansibleh21	#Ansible Host 21
+192.168.0.165	ansibleh22.home.ca	ansibleh22	#Ansible Host 22
+192.168.0.166	ansibleh23.home.ca	ansibleh23	#Ansible Host 23
+192.168.0.167	ansibleh24.home.ca	ansibleh24	#Ansible Host 24
+192.168.0.168	ansibleh25.home.ca	ansibleh25	#Ansible Host 25
+192.168.0.169	ansibleh26.home.ca	ansibleh26	#Ansible Host 26
+192.168.0.170	ansibleh27.home.ca	ansibleh27	#Ansible Host 27
+192.168.0.171	ansibleh28.home.ca	ansibleh28	#Ansible Host 28
+192.168.0.172	ansibleh29.home.ca	ansibleh29	#Ansible Host 29
+192.168.0.173	ansibleh30.home.ca	ansibleh30	#Ansible Host 30
+192.168.0.174	ansibleh31.home.ca	ansibleh31	#Ansible Host 31
+192.168.0.175	ansibleh32.home.ca	ansibleh32	#Ansible Host 32
+192.168.0.176	ansibleh33.home.ca	ansibleh33	#Ansible Host 33
+192.168.0.177	ansibleh34.home.ca	ansibleh34	#Ansible Host 34
+192.168.0.178	ansibleh35.home.ca	ansibleh35	#Ansible Host 35
+192.168.0.179	ansibleh36.home.ca	ansibleh36	#Ansible Host 36
+192.168.0.180	ansibleh37.home.ca	ansibleh37	#Ansible Host 37
+192.168.0.181	ansibleh38.home.ca	ansibleh38	#Ansible Host 38
+192.168.0.182	ansibleh39.home.ca	ansibleh39	#Ansible Host 39
+192.168.0.183	ansibleh40.home.ca	ansibleh40	#Ansible Host 40
+192.168.0.184	ansibleh41.home.ca	ansibleh41	#Ansible Host 41
+192.168.0.185	ansibleh42.home.ca	ansibleh42	#Ansible Host 42
+192.168.0.186	ansibleh43.home.ca	ansibleh43	#Ansible Host 43
+192.168.0.187	ansibleh44.home.ca	ansibleh44	#Ansible Host 44
+192.168.0.188	ansibleh45.home.ca	ansibleh45	#Ansible Host 45
+192.168.0.189	ansibleh46.home.ca	ansibleh46	#Ansible Host 46
+192.168.0.190	ansibleh47.home.ca	ansibleh47	#Ansible Host 47
+192.168.0.191	ansibleh48.home.ca	ansibleh48	#Ansible Host 48
+192.168.0.192	ansibleh49.home.ca	ansibleh49	#Ansible Host 49
+192.168.0.193	ansibleh50.home.ca	ansibleh50	#Ansible Host 50
+192.168.0.194	ansibleh51.home.ca	ansibleh51	#Ansible Host 51
+192.168.0.195	ansibleh52.home.ca	ansibleh52	#Ansible Host 52
+192.168.0.196	ansibleh53.home.ca	ansibleh53	#Ansible Host 53
+192.168.0.197	ansibleh54.home.ca	ansibleh54	#Ansible Host 54
+192.168.0.198	ansibleh55.home.ca	ansibleh55	#Ansible Host 55
+192.168.0.199	ansibleh56.home.ca	ansibleh56	#Ansible Host 56
+192.168.0.200	ansibleh57.home.ca	ansibleh57	#Ansible Host 57
+192.168.0.201	ansibleh58.home.ca	ansibleh58	#Ansible Host 58
+192.168.0.202	ansibleh59.home.ca	ansibleh59	#Ansible Host 59
+192.168.0.203	ansibleh60.home.ca	ansibleh60	#Ansible Host 60
+192.168.0.204	ansibleh61.home.ca	ansibleh61	#Ansible Host 61
+192.168.0.205	ansibleh62.home.ca	ansibleh62	#Ansible Host 62
+192.168.0.206	ansibleh63.home.ca	ansibleh63	#Ansible Host 63
+192.168.0.207	ansibleh64.home.ca	ansibleh64	#Ansible Host 64
+192.168.0.208	ansibleh65.home.ca	ansibleh65	#Ansible Host 65
+192.168.0.209	ansibleh66.home.ca	ansibleh66	#Ansible Host 66
+192.168.0.210	ansibleh67.home.ca	ansibleh67	#Ansible Host 67
+192.168.0.211	ansibleh68.home.ca	ansibleh68	#Ansible Host 68
+192.168.0.212	ansibleh69.home.ca	ansibleh69	#Ansible Host 69
+192.168.0.213	ansibleh70.home.ca	ansibleh70	#Ansible Host 70
+192.168.0.214	ansibleh71.home.ca	ansibleh71	#Ansible Host 71
+192.168.0.215	ansibleh72.home.ca	ansibleh72	#Ansible Host 72
+192.168.0.216	ansibleh73.home.ca	ansibleh73	#Ansible Host 73
+192.168.0.217	ansibleh74.home.ca	ansibleh74	#Ansible Host 74
+192.168.0.218	ansibleh75.home.ca	ansibleh75	#Ansible Host 75
+192.168.0.219	ansibleh76.home.ca	ansibleh76	#Ansible Host 76
+192.168.0.220	ansibleh77.home.ca	ansibleh77	#Ansible Host 77
+192.168.0.221	ansibleh78.home.ca	ansibleh78	#Ansible Host 78
+192.168.0.222	ansibleh79.home.ca	ansibleh79	#Ansible Host 79
+192.168.0.223	ansibleh80.home.ca	ansibleh80	#Ansible Host 80
+192.168.0.224	ansibleh81.home.ca	ansibleh81	#Ansible Host 81
+192.168.0.225	ansibleh82.home.ca	ansibleh82	#Ansible Host 82
+192.168.0.226	ansibleh83.home.ca	ansibleh83	#Ansible Host 83
+192.168.0.227	ansibleh84.home.ca	ansibleh84	#Ansible Host 84
+192.168.0.228	ansibleh85.home.ca	ansibleh85	#Ansible Host 85
+192.168.0.229	ansibleh86.home.ca	ansibleh86	#Ansible Host 86
+192.168.0.230	ansibleh87.home.ca	ansibleh87	#Ansible Host 87
+192.168.0.231	ansibleh88.home.ca	ansibleh88	#Ansible Host 88
+192.168.0.232	ansibleh89.home.ca	ansibleh89	#Ansible Host 89
+192.168.0.233	ansibleh90.home.ca	ansibleh90	#Ansible Host 90
+192.168.0.234	ansibleh91.home.ca	ansibleh91	#Ansible Host 91
+192.168.0.235	ansibleh92.home.ca	ansibleh92	#Ansible Host 92
+192.168.0.236	ansibleh93.home.ca	ansibleh93	#Ansible Host 93
+192.168.0.237	ansibleh94.home.ca	ansibleh94	#Ansible Host 94
+192.168.0.238	ansibleh95.home.ca	ansibleh95	#Ansible Host 95
+192.168.0.239	ansibleh96.home.ca	ansibleh96	#Ansible Host 96
+192.168.0.240	ansibleh97.home.ca	ansibleh97	#Ansible Host 97
+192.168.0.241	ansibleh98.home.ca	ansibleh98	#Ansible Host 98
+192.168.0.242	ansibleh99.home.ca	ansibleh99	#Ansible Host 99
+192.168.0.243	ansibleh100.home.ca	ansibleh100	#Ansible Host 100
+192.168.0.244	ansibleh101.home.ca	ansibleh101	#Ansible Host 101
+192.168.0.245	ansibleh102.home.ca	ansibleh102	#Ansible Host 102
+192.168.0.246	ansibleh103.home.ca	ansibleh103	#Ansible Host 103
+192.168.0.247	ansibleh104.home.ca	ansibleh104	#Ansible Host 104
+192.168.0.248	ansibleh105.home.ca	ansibleh105	#Ansible Host 105
+192.168.0.249	ansibleh106.home.ca	ansibleh106	#Ansible Host 106
+192.168.0.250	ansibleh107.home.ca	ansibleh107	#Ansible Host 107
+192.168.0.251	ansibleh108.home.ca	ansibleh108	#Ansible Host 108
+192.168.0.252	ansibleh109.home.ca	ansibleh109	#Ansible Host 109
+192.168.0.253	ansibleh110.home.ca	ansibleh110	#Ansible Host 110
+192.168.0.254	ansibleh111.home.ca	ansibleh111	#Ansible Host 111
+192.168.0.255	ansibleh112.home.ca	ansibleh112	#Ansible Host 112
+
+

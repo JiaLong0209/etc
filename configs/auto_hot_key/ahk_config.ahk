@@ -1,5 +1,4 @@
-﻿
-CapsLock::Escape
+﻿CapsLock::Escape
 
 RAlt::return
 #If GetKeyState("RAlt", "P")

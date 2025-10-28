@@ -1,0 +1,28 @@
+[MM_CTX_ARRANGE_MMOUSE]
+mm_0=2 m
+mm_1=1 m
+
+[MM_CTX_MIDI_NOTE]
+mm_4=7 m
+
+[MM_CTX_MIDI_NOTE_CLK]
+mm_0=1 m
+mm_4=2 m
+
+[MM_CTX_MIDI_PIANOROLL]
+mm_0=7 m
+mm_1=9 m
+mm_3=16 m
+mm_4=16 m
+
+[MM_CTX_MIDI_PIANOROLL_CLK]
+mm_0=3 m
+mm_1=1 m
+mm_2=1 m
+
+[MM_CTX_MIDI_PIANOROLL_DBLCLK]
+mm_0=_1f5fabfa667418ad7351205efc30ea47
+mm_2=_6adf2b114732c13d7eba687b61ec32ba
+mm_3=0 m
+mm_4=0 m
+

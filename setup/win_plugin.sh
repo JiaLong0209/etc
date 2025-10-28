@@ -45,6 +45,9 @@ yabridgectl add "$HOME/.wine/drive_c/Program Files/Steinberg/VstPlugins"
 yabridgectl add "$HOME/.wine/drive_c/Program Files/Common Files/VST3"
 yabridgectl add "$HOME/.wine/drive_c/Program Files/Common Files/CLAP"
 
+yabridgectl add "$HOME/.wine64/drive_c/Program Files/Steinberg/VSTPlugins"
+yabridgectl add "$HOME/.wine64/drive_c/Program Files (x86)/VstPlugins"
+
 # Convert plugins into .so
 yabridgectl sync
 
@@ -66,4 +69,12 @@ Exec=env WINEPREFIX="/home/jialong/.wine" wine Native\ Access.lnk --remote-debug
 
 
 
+# JH Piano
+# https://plugins4free.com/plugin/3573/
+
+# Darksichord
+# https://plugins4free.com/plugin/3149/
+
+# MT Power Drum Kit
+# https://plugins4free.com/plugin/2783/
 
